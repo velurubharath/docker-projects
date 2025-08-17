@@ -33,7 +33,7 @@ jobs:
               
           - name: Run container
             run: |
-              docker run -d -p 5000:8080 --name myapp ${{ secrets.DOCKERHUB_USERNAME}}/hello-docker:latest 
+              docker run -d -p 5000:5000 --name myapp ${{ secrets.DOCKERHUB_USERNAME}}/hello-docker:latest 
               for i in {1..10}; do
                 if curl -f http://localhost:5000 | grep "Hello from Bharath"; then
                   echo "App is up!"
