@@ -11,15 +11,15 @@ This project demonstrates a basic Flask web app running inside a Docker containe
    ```bash
    docker build -t hello-docker .
 2. Run  Conainer
-docker run -d -p 8080:5000 --name myapp hello-docker
+   docker run -d -p 8080:5000 --name myapp hello-docker
 
 3. Test in Browser or Curl
    curl http://localhost:8080
-
-  Expected Code: Hello from Bharath! Running inside Docker
-4. View Logs:
+   Expected Code: Hello from Bharath! Running inside Docker
+   
+5. View Logs:
     docker logs myapp
 
-5. Cleanup:
+6. Cleanup:
      docker stop myapp && docker rm myapp
      docker rmi hello-docker
