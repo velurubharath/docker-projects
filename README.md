@@ -5,8 +5,10 @@
 I am Bharath Veluru, a Senior DevOps Engineer with 11+ years of experience.  
 This repository demonstrates my Docker expertise through real-world DevOps use cases.
 
+![Build Status](https://github.com/velurubharath/docker-devops-projects/actions/workflows/docker-build.yml/badge.svg)
+
 ## 📂 Projects
-1. [Hello Docker](./Project-Hello-Docker) – Basic Flask app in Docker
+1. [Hello Docker](./Project-Hello-Docker) – Basic Flask app in Docker 
 2. [Optimized Dockerfiles](./project-dockerfiles) – Multi-stage builds & optimization
 3. [Docker Compose App](./project-compose-app) – Multi-service app with DB & proxy
 4. [CI/CD with Docker](./project-ci-cd-docker) – GitHub Actions workflow
