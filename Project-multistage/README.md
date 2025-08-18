@@ -5,6 +5,7 @@
 This project demonstrates how to containerize a simple Flask web application using Docker multi-stage builds.
 The goal is to showcase best practices for building lightweight, production-ready images.
 
+![Build Status](https://github.com/velurubharath/docker-projects/actions/workflows/docker-build.yml/badge.svg)
 Hello from Bharath. MultiStages!
 
 🛠 Tech Stack
