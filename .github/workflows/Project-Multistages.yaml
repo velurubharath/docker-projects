@@ -19,7 +19,7 @@ jobs:
 
       # Step 3 - Build Docker image
       - name: Build Docker image
-        run: docker build -t flask-multistage .
+        run: docker build -t flask-multistage Project-multistage/.
 
       # Step 4 - Run container
       - name: Run container
