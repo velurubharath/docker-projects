@@ -7,7 +7,7 @@ This repository demonstrates my Docker expertise through real-world DevOps use c
 
 ## 📂 Projects
 1. [Hello Docker](./Project-Hello-Docker) – Basic Flask app in Docker
-2. [Optimized Dockerfiles](./project-dockerfiles) – Multi-stage builds & optimization
+2. [Optimized Dockerfiles](./Project-multistage) – Multi-stage builds & optimization
 3. [Docker Compose App](./project-compose-app) – Multi-service app with DB & proxy
 4. [CI/CD with Docker](./project-ci-cd-docker) – GitHub Actions workflow
 5. [Docker Monitoring](./project-docker-monitoring) – Prometheus + Grafana
