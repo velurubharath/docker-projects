@@ -6,7 +6,7 @@ app = Flask(__name__)
 redis_host = os.getenv("REDIS_HOST","redis")
 r = redis.Redis(host=redis_host,port=6379,decode_responses=True)
 
-app.route("/")
+@app.route("/")
 def home():
     count = r.incr("hits")
     return f"Hello from Bharath Docker's portfolio!. PageViews: {count}"
