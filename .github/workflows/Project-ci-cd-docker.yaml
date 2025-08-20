@@ -23,7 +23,8 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./app
+          context: ./Project-ci-cd-docker
+          file: ./Project-ci-cd-docker/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd-flask:latest
 
