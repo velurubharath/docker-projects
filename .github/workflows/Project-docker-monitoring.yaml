@@ -32,7 +32,7 @@ jobs:
         run: curl --fail http://localhost:9090/-/healthy || exit 1
 
       - name: Check health - grapahana
-        run: curl --fail https://localhost:3000 || exit 1
+        run: curl --fail http://localhost:3000 || exit 1
 
       - name: Shutdown the containers
         if: always()
