@@ -1,4 +1,4 @@
-Name: Docker Monitoring
+name: Docker Monitoring
 
 on:
   workflow_dispatch:
